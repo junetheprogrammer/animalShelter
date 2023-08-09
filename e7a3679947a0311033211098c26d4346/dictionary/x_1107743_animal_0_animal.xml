@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b2e36b9947a0311033211098c26d4358" label="Animal" max_length="40" name="x_1107743_animal_0_animal" type="collection">
+        <element label="Age" mandatory="true" max_length="38" name="age" type="decimal"/>
+        <element label="breed" mandatory="true" max_length="32" name="breed" reference="x_1107743_animal_0_breed_table" reference_qual="javascript:'type='+current.type" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="female" sequence="1" value="female"/>
+            </choice>
+        </element>
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Picture" mandatory="true" max_length="40" name="picture" type="user_image"/>
+        <element default="dog" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cat" sequence="0" value="cat"/>
+                <element inactive_on_update="false" label="dog" sequence="1" value="dog"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="breed"/>
+        </index>
+    </element>
+</database>

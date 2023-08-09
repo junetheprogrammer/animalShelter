@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>x_1107743_animal_0.shelter admin,x_1107743_animal_0.shelter user,x_1107743_animal.shelter user,admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-09 20:27:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd964d7d4720311033211098c26d433b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Animal Shelter Apdoption Tracker</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Animal Shelter" source="x_1107743_animal_0">e7a3679947a0311033211098c26d4346</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Animal Shelter">e7a3679947a0311033211098c26d4346</sys_scope>
+        <sys_update_name>sys_app_application_cd964d7d4720311033211098c26d433b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-09 20:27:57</sys_updated_on>
+        <title>Animal Shelter Apdoption Tracker</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
